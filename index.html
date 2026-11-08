@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Animación Móvil</title>
+    <style>
+        body { background: #111; color: #fff; text-align: center; font-family: sans-serif; padding-top: 50px; }
+        .caja {
+            width: 80px;
+            height: 80px;
+            background-color: #00ffcc;
+            margin: 40px auto;
+            border-radius: 12px;
+            animation: girar 1.5s infinite alternate ease-in-out;
+        }
+        @keyframes girar {
+            0% { transform: scale(1) rotate(0deg); }
+            100% { transform: scale(1.5) rotate(180deg); }
+        }
+    </style>
+</head>
+<body>
+    <h2>¡Animación desde el Celular!</h2>
+    <div class="caja"></div>
+</body>
+</html>
